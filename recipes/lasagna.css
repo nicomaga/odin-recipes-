@@ -1,17 +1,52 @@
 .title{
   font-size: 40px;
+  text-align: center;
 }
 
 .picture{
   width: 500px;
+  display: block;
+  margin: 0% auto;
+}
+
+.title-2{
+  text-align: center;
 }
 
 .description{
-  width: 500px;
+  display: block;
+  margin: 0% auto;
+  width: 400px;
 }
+
 .ingredients{
   font-size: 14px;
+ margin-left: 300px;
+ line-height: 30px
 }
-.steps{
+
+.ingredients-title{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.directions{
+  text-align: center;
+  text-decoration: underline;
+}
+.all-steps{
   width: 500px;
+  display: block;
+  margin: 0% auto;
+  line-height: 30px;
+}
+
+.border{
+  border-style: solid;
+  font-family: Avenir;
+  border-width: 0.5px;
+}
+
+.steps{
+  margin-bottom: 20px;
 }
