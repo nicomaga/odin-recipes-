@@ -1,3 +1,7 @@
+.main{
+  font-family: Avenir;
+}
+
 .title{
   text-align: center;
 }
@@ -6,4 +10,19 @@
   display: block;
   margin: 0% auto;
   width: 200px;
+  margin-bottom: 0;
 }
+
+.italian-recipes{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.recipes{
+  display: block;
+  margin-left: 340px;
+  line-height: 30px;
+  margin-top: 0px;
+}
+
