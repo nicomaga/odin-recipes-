@@ -1,5 +1,7 @@
 .main{
   font-family: Avenir;
+  display: grid;
+  place-items: center;
 }
 
 .title{
@@ -20,8 +22,10 @@
 }
 
 .recipes{
-  display: block;
-  margin-left: 340px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  place-items: center start;
+  gap: 0 1rem;
   line-height: 30px;
   margin-top: 0px;
 }
