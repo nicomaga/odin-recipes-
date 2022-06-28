@@ -1,10 +1,18 @@
+.border{
+  border-style: solid;
+  font-family: Avenir;
+  border-width: 0.5px;
+  display: grid;
+  place-items: center;
+}
+
 .title{
-  font-size: 40px;
+  font-size: 48px;
   text-align: center;
 }
 
-.picture{
-  width: 500px;
+.tiramisu-picture{
+  width: 400px;
   display: block;
   margin: 0% auto;
 }
@@ -19,6 +27,11 @@
   width: 400px;
 }
 
+.ingredients-title{
+  text-align: center;
+  text-decoration: underline;
+}
+
 .ingredients{
   font-size: 14px;
   line-height: 30px;
@@ -28,30 +41,14 @@
   gap: 0 1rem;
 }
 
-.ingredients-title{
-  text-align: center;
-  text-decoration: underline;
-}
-
 .directions{
   text-align: center;
   text-decoration: underline;
 }
+
 .all-steps{
   width: 500px;
   display: block;
   margin: 0% auto;
   line-height: 30px;
-}
-
-.border{
-  border-style: solid;
-  font-family: Avenir;
-  border-width: 0.5px;
-  display: grid;
-  place-items: center;
-}
-
-.steps{
-  margin-bottom: 20px;
 }
